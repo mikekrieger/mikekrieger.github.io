@@ -1,16 +1,85 @@
-<head>
-	<link href="style.css"
-rel="Stylesheet" type="text/css" />
-</head>
 
-h2{color:#1A1536; background-color: 000000; font-size:32px; text-align:center; letter-spacing:0px; 
+body {
+  font-family: 'LeagueGothic'; font-weight:normal; background-image:none;
+  src: url('fonts/League-Gothic/LeagueGothic-Regular.otf');
+  arial, sans-serif;
+  max-width:50em;
+  margin:1em;
+}
+	#header{
+	padding-left:35em;
+	padding-right:0em;
+	position:relative:0em;
+	height:4em;
+	}
+
+	#nav{position:absolute;
+	width: 200px;
+	top:2.5em;
+	left:0em;
+	}
+	.container {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-flex: 1;
+          flex: 1;
+}
+
+li {
+width:240px;
+background-color: #ffffff;
+padding: 1px;
+margin-right:7px;margin-bottom:7px;float:left;
+}
+
+a{
+	color:000000;
+}
+
+li{
 
 }
 
-p{
-	color:#050301; background-color:#EBA400; font-size:12px; text-align:left; letter-spacing:0px; 
+div{
+	clear:both; min-height:10px; overflow:hidden;
+	}
+
+#col1{
+	float:left; min-height:100px;margin-right:10px; margin-top:10px; margin-bottom:10px;
 }
 
-a:hover{
-	color:#42270C; background-color:#EBA400; font-size:12px; text-align:left; letter-spacing:0px;
+#col2{
+	float:left; min-height:100px; margin-left:250px; margin-top:-90px; margin-bottom:10px;
+}
+
+.site-header {
+	padding-top: 0;
+}
+
+.main-navigation {
+margin-top:0;	
+}
+
+.container {
+	position:relative; display: -webkit-flex;
+	display: flex;
+}
+
+.navbar{
+	position: absolute;
+	left: 0px;
+	width:200px;
+}
+.flex-column {
+	-webkit-flex:1;
+		flex:1;
+}
+
+.navbar{
+	position: relative;
+	left:0px;
+	width:200px;
 }
