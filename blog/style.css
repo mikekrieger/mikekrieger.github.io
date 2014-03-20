@@ -62,9 +62,7 @@ table {
 }
 
 body {
-  font-family: 'LeagueGothic'; font-weight:normal; background-image:none;
-  src: url('fonts/League-Gothic/LeagueGothic-Regular.otf');
-  font-family: 'helvetica, arial, sans-serif';
+  font-family: helvetica, arial, sans-serif;
   max-width:50em;
   margin:1em;
 
