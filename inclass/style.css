@@ -1,0 +1,38 @@
+head{
+	text-decoration:none;
+	width:100%;
+}
+body{
+	text-decoration: none;
+	width:100%;
+}
+.header{
+
+}
+	.logo{
+		float:left;
+		width:20%;
+		margin-left:1em; 
+		margin-bottom:2em; 
+		margin-right:1em; 
+		margin-top:1em;
+	}
+
+	.navbar{
+		overflow:auto;
+		display:inline-block;
+		margin-left:35em; 
+		margin-bottom:1em; 
+		margin-right:1em; 
+		margin-top:1em; 
+		width:20%;
+	}
+
+	.container{
+		margin:0em;
+	}
+
+	.col{
+		float:left;
+		width:49%;
+	}
